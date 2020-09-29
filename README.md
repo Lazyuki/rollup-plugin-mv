@@ -1,6 +1,6 @@
 # rollup-plugin-mv
 
-🍣 A Rollup plugin to move generated files
+🍣 A Rollup plugin to move around generated files and directories
 
 ## Requirements
 
