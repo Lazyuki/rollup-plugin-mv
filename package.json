@@ -1,6 +1,6 @@
 {
   "name": "rollup-plugin-mv",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Rollup plugin to move around generated files and directories",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
