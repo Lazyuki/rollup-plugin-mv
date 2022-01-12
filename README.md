@@ -30,10 +30,10 @@ export default {
   plugins: [
     mv(
       [
-        { src: "dist/file", dist: "dist/assets/file" },
+        { src: "dist/file", dest: "dist/assets/file" },
         {
           src: "dist/folder",
-          dist: "dist/assets/dir",
+          dest: "dist/assets/dir",
           overwrite: true,
         },
       ],
@@ -56,7 +56,7 @@ The first argument accepts an object or an array of objects with the following s
   /**
    * Destination file or directory
    */
-  dist: string;
+  dest: string;
   /**
    * Overwrite existing file or directory.
    */
